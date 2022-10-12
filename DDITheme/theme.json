@@ -4,7 +4,7 @@
 	"version": "v1.0",
 	"target": "System-Wide",
 	"manifest_version": 2,
-	"description": "Modified primarily from the Chiaki Nananmi theme by Dutchsnake5/Five, with a Switch menu from suchmememanyskill, this is a pastel pink theme featuring Toro Inoue and his friends.",
+	"description": "Modified primarily from the Chiaki Nanami theme by Dutchsnake5/Five, with a Switch menu from suchmememanyskill, this is a pastel pink theme featuring Toro Inoue and his friends.",
 	"inject": {
 		"shared.css": ["SP", "MainMenu", "QuickAccess"],
 		"image.css": ["SP"]
