@@ -1,0 +1,24 @@
+{
+	"name": "Doko Demo Issyo Theme",
+	"author": "amaki#0001",
+	"version": "v1.0",
+	"target": "System-Wide",
+	"manifest_version": 2,
+	"description": "Modified primarily from the Chiaki Nananmi theme by Dutchsnake5/Five, with a Switch menu from suchmememanyskill, this is a pastel pink theme featuring Toro Inoue and his friends.",
+	"inject": {
+		"shared.css": ["SP", "MainMenu", "QuickAccess"],
+		"image.css": ["SP"]
+	},
+	"patches": {
+		"Switch-Like Home": {
+			"default": "Yes",
+			"type": "checkbox",
+			"values": {
+				"No": {},
+				"Yes": {
+					"SwitchLikeMenu.css": ["SP"]
+				}
+			}
+		}
+	}
+}
